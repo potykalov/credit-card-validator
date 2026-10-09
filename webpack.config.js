@@ -13,12 +13,12 @@ const config = {
     clean: true,
   },
 
-  devtool: "source-map",
-
   devServer: {
-    port: 8000,
+    port: "8000",
     open: true,
   },
+
+  devtool: "source-map",
 
   plugins: [
     new PugPlugin({

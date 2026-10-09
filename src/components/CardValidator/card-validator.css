@@ -1,0 +1,65 @@
+.card-validator__badges-list {
+  list-style-type: none;
+  margin: 0 0 20px;
+  padding: 20px 0 0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.card-validator__badges-item {
+  border-radius: 10px;
+  border: 1px solid #c9c9c9;
+  padding: 5px;
+  filter: grayscale(100%);
+}
+
+.card-validator__badges-item--active {
+  filter: grayscale(0);
+}
+
+.card-validator__form {
+  display: flex;
+  gap: 20px;
+}
+
+.card-validator__form-field {
+  font-family: inherit;
+  font-size: 18px;
+  color: #000000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #9c9c9c;
+  width: 300px;
+  transition: border-color 0.3s ease-in;
+}
+
+.card-validator__form-field:hover {
+  border-color: #5fb462;
+}
+
+.card-validator__form-field::placeholder {
+  font-family: inherit;
+}
+
+.card-validator__form-submit {
+  font-family: inherit;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #5fb462;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  user-select: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in;
+}
+
+.card-validator__form-submit:hover {
+  background-color: #4f9551;
+}
+
+.card-validator__form-submit:disabled {
+  background-color: #c9c9c9;
+  cursor: default;
+}

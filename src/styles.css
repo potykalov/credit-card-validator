@@ -1,0 +1,8 @@
+/* Global */
+/* --------------------------------- */
+@import "./css/global.css";
+@import "./css/container.css";
+
+/* Blocks */
+/* --------------------------------- */
+@import "./components/CardValidator/card-validator.css";

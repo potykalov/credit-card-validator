@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  min-width: 368px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+}

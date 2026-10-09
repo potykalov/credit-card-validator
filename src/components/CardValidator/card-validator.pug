@@ -1,0 +1,38 @@
+.card-validator
+    ul.card-validator__badges-list(aria-label="bank labels")
+        li.card-validator__badges-item(data-id="visa")
+            img.card-validator__badges-img(
+                src="https://thesvg.org/icons/visa/default.svg" 
+                width="48" height="48" alt="visa")
+        li.card-validator__badges-item(data-id="mastercard")
+            img.card-validator__badges-img(
+                src="https://thesvg.org/icons/mastercard/default.svg" 
+                width="48" height="48" alt="mastercard")
+        li.card-validator__badges-item(data-id="amex")
+            img.card-validator__badges-img(
+                src="https://thesvg.org/icons/american-express/default.svg" 
+                width="48" height="48" alt="american-express")
+        li.card-validator__badges-item(data-id="discover")
+            img.card-validator__badges-img(
+                src="https://thesvg.org/icons/discover/default.svg"
+                width="48" height="48" alt="discover")
+        li.card-validator__badges-item(data-id="jcb")
+            img.card-validator__badges-img(
+                src="https://thesvg.org/icons/jcb/default.svg" 
+                width="48" height="48" alt="jcb")
+        li.card-validator__badges-item(data-id="diners")
+            img.card-validator__badges-img(
+                src="https://thesvg.org/icons/diners-club/default.svg" 
+                width="48" height="48" alt="diners")
+        li.card-validator__badges-item(data-id="mir")
+            img.card-validator__badges-img(
+                src="https://thesvg.org/icons/mir/default.svg" 
+                width="48" height="48" alt="mir")
+    form.card-validator__form(action="#", method="POST"
+        name="form-validator" aria-label="credit card validator")
+        input.card-validator__form-field(
+            type="text" 
+            name="card-number" 
+            placeholder="Card number (required)"
+            required)
+        button.card-validator__form-submit(type="submit" disabled) Click to Validate
